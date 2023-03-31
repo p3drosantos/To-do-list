@@ -1,0 +1,36 @@
+.task_container {
+    background-color: #444;
+    margin: 8px 0px ;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+
+}
+
+.icons_container{
+    width: 30%;
+    display:flex;
+    justify-content: end;
+}
+
+.task{
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+    color: chartreuse;
+    font-size: 20px;
+ 
+}
+
+.details{
+    margin-right: 10px;
+    color: chartreuse;
+    cursor: pointer;
+    font-size: 20px;
+
+}
